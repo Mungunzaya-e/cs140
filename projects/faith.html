@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer</title>
+    <link rel="icon" type="image/png" href="../endy_fav.png">
+    <style>
+
+        body {
+            display: block;
+            width: 60%;
+            margin: 0 auto;
+        }
+        h1 {
+            display: block;
+            text-align: center;
+            background-color: #4e4d49;
+            color: aliceblue;
+            padding: 20px 0;
+            margin-top: 0%;
+            margin-bottom: 0;
+            font-size: 50px;
+        }
+        nav {
+            display: block;
+            background-color: #ebe5d8;
+            margin-top: 0;
+            padding: 5px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-flex;
+            justify-content: space-between;
+            background-color: #fef9ef;
+            padding: 10px;
+            width: 15%;
+            margin: auto 5px;
+        }
+        li a {
+            text-decoration: none;
+            color: black;
+            margin: 0 auto;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 30px;
+            background-color: #ebe5d8;
+            padding: 50px;
+            margin-top: 30px;
+        }
+        
+        h2 {
+            margin: 0 0 20px;
+        }
+        section img {
+            grid-column: 2/3;
+            margin: auto;
+            width: 100%;
+        }
+        section p {
+            margin-top: 0;
+        }
+
+        #more {
+            display: flex;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: white;
+        }
+
+        #more h2 {
+            display: block;
+            text-align: center;
+            width: 500px;
+            margin-bottom: 30px;
+        }
+
+        .audio {
+            display: flex;
+            background-color: white;
+            width: 100%;
+            padding: 0;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0;
+        }
+
+        footer {
+            display: block;
+            text-align: center;
+            padding: 50px;
+            background-color: #4e4d49;
+            color: aliceblue;
+        }
+
+        hr {
+            margin-top: 100px;
+        }
+
+        .video {
+            margin-bottom: 30px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prayer</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Scriptures</a></li>
+                <li><a href="#">Speech</a></li>
+                <li><a href="#">Quotes</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/search?facet=liahona&lang=eng&page=1&query=prayer&type=web">Liahona</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="p1">
+            <div>
+                <h2>What is Prayer?</h2>
+                <p>Have you ever had a moment where it felt like you have no one to talk to? Or a moment where you needed guidance, but did not know where to turn to? In these moments, the best thing we can do is to pray. Prayer allows us to communicate with our Heavenly Father who knows us perfectly well.</p>
+                <a href="https://www.churchofjesuschrist.org/study/manual/gospel-topics/prayer-study-guide?lang=eng">Read more ...</a>
+            </div>
+            <img src="images/2.png" width="300" type="image/png" alt="girl reaching he hand upward">
+        </section>
+        <section id="p2">
+            <div>
+                <h2>How to Pray?</h2>
+                <p>While there is no set rule on how prayers must be, there are important things to include in your prayer. The most important parts are addressing our Heavenly Father and ending it in the name of Jesus Christ. You can look at it as a letter being sent - where Heavenly Father is your destination and Jesus Christ is your courier. In between these, you may say whatever you feel you want to say - it could be questions, gratitutes, or even about how you are feeling.</p>
+            </div>
+            <img src="images/3.png" width="300" type="image/png" alt="praying Jesus">
+        </section>
+        <section id="p3">
+            <div>
+                <h2>Testimony</h2>
+                <p>For me, I like to pray to God to express my gratitude. I believe that whatever that comes into my life has a purpose and is from God. By thinking about what I can be grateful for, I often notice the little things that helped me grow, made me  feel joy, or gave me hope. And when I pray, I can feel that I'm not alone and that I'm loved.</p>
+            </div>
+            <img src="images/1.png" width="300" type="image/png" alt="angels around">
+        </section>
+        <hr>
+        <section id="more">
+            <h2>More Resources</h2>
+            <iframe class="video" width="500" height="270" src="https://www.youtube.com/embed/abI47Nf2uCg"></iframe>
+            <video class="video" width="500" height="auto" controls>
+                <source  src="images/prayer.mp4" type="video/mp4" alt="Peace through Prayer">
+            </video>
+            <div class="audio">
+                <h3>"Lead Me Into Life Eternal", Hymn 45</h3>
+                <audio controls>
+                    <source src="images/Lead Me into Life Eternal Vocal (Choir).mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy;2026 &bull; Mungunzaya Enkhtuya
+    </footer>
+</body>
+</html>
