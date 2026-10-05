@@ -51,7 +51,7 @@ div {
 }
 
 .quotes img {
-    width: 200px;
+    width: 16vw;
     border-radius: 30px;
 
 }
@@ -63,9 +63,13 @@ div {
 }
 
 .quotes p {
-    width: 500px;
-    font-size: 18pt;
-    margin: 0 30px;
+    width: 100vw;
+    font-size: 2.2vw;
+    margin: 0 0 0 40px;
+}
+
+.middle p {
+    margin: 0 40px 0 0;
 }
 
 hr {
