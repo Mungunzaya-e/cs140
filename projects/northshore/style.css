@@ -27,14 +27,14 @@ nav {
     width: 450px;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-content: space-around;
     margin-right: 25px;
     margin-left: 0;
 }
 
-li {
+nav li {
     list-style: none;
 }
 
