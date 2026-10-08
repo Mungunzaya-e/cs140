@@ -24,7 +24,18 @@ h1 {
 
 nav {
     display: inline;
-    width: 35%;
+    width: 37%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    margin-left: 0;
+}
+
+li {
+    list-style: none;
 }
 
 ul a {
