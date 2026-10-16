@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url("EndysHandwriting-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary-color: #36556f;
+  --secondary-color: #e0ca8c;
+}
+
+@media (min-width: 0) {
+    body {
+        width: 65%;
+        margin: 0 auto;
+        background-image: url(images/chicago_illinois_temple.webp);
+        background-repeat: repeat;
+        background-size: 65%;
+        background-position: top center;
+        
+        font-family: 'MyCustomFont';
+        font-size: 18pt;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        width: 50%;
+        background-size: 50%;
+    }
+}
+
+.body-bg {
+
+    background-color: #fff;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    padding: 20px;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    margin: 40px auto 0;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 5px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav li {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li a {
+    background-color: var(--secondary-color);
+    padding: 10px 10px 5px;
+    width: 10%;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.7vw;
+    font-weight: 600;
+
+}
+
+nav a:hover {
+    background-color: #efe0b7;
+}
+
+main {
+    
+    padding: 50px 50px 10px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    font-size: 16pt;
+    margin: 50px auto;
+    padding: 15px;
+    
+}
+
+main ul {
+    list-style-image: url(images/flwr-bullet-04-04.svg);
+}
+
+main li {
+
+    padding-left: 10px;
+    font-size: 16pt;
+    line-height: 25px;
+}
+
+main a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 3vw;
+    margin: 0;
+    text-align: center;
+}
+
+.active {
+    background-color: #fff;
+}
+
+figure img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
