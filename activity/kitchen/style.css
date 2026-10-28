@@ -1,0 +1,27 @@
+.menu div {
+    background-color: rgb(199, 227, 95);
+    padding: 15px;
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.special {
+    grid-column: span 3;
+    font-size: 130%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu div:nth-child(even) {
+  background-color: #ed83ef;
+}
+
+.menu div:first-child {
+  background-color: #4d1b5e;
+  color: white;
+}
