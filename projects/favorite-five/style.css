@@ -70,14 +70,18 @@ nav {
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
+    
     margin: 0;
     list-style: none;
     padding-left: 0;
 }
 
-nav a {
+nav li {
+    display: flex;
+    justify-content: center;    
+}
+
+nav li a {
     /*border-right: 1px solid #222;*/
     padding: 10px 5px 5px;
     width: 15%;
@@ -88,7 +92,7 @@ nav a {
     transition: 0.2s;
 }
 
-nav a:hover {
+nav li a:hover {
     background-color: #dbdbdb;
     border-radius: 10px;
 }
