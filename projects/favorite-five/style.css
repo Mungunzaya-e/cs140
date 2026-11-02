@@ -32,19 +32,20 @@
     color: rgb(79, 77, 77);
 }
 
-body {
+#mainpage {
     background-image: url(images/plaid-christmas.webp);
     font-family: 'MyCustomFont';
-    width: 70%;
-    margin: 0 auto;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .wrapper {
+    width: 70%;
     background-color: #fff;
     display: grid;
     grid-template-columns: 30% 70%;
-    width: 100%;
+    margin: 0 auto;
+    box-shadow: 5px 0 30px #000;
 }
 
 header {
