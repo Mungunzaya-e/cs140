@@ -1,0 +1,56 @@
+body { 
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+.mobile-only {
+    display: none;
+}
+
+h1 {
+    font-size: 60pt;
+}
+
+@media screen and (max-width: 600px) {
+    body { 
+    background-color: lightyellow;
+    font-size: 14px;
+}
+
+.wrapper {
+    display: block;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    border: 3px solid steelblue;
+}
+
+.mobile-only {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+}

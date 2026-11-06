@@ -1,0 +1,3 @@
+1. I learned that whenever we create a web page, we have to consider how our page will be viewed from different screen sizes and make sure style our webpage so that it can viewed correctly from any devices. Best practice will be to always use relative values on widths.
+
+2. I also learned that there's so much more we can do by utilizing the @media queries. I only knew about the screen width conditions, but there are a lot of other options such as preferred color mode, motion preference, etc.
