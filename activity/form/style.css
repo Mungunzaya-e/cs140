@@ -1,0 +1,38 @@
+body {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 500px;
+    background-image: url(images/daschorsch-flowers-7221191.jpg);
+}
+
+main {
+    background-color: #fff;
+    margin: 0 0 50px 0;
+    padding: 50px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.name, .email, .message, .skill {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+h1 {
+    background-color: rgb(43, 72, 40);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 50px 0 0 0;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+button {
+    
+}
