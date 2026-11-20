@@ -12,65 +12,79 @@
     <main>
         
         <form action="emungun@byuh.edu" method="post" enctype="text/plain" id="survey-form">
-            <div class="name">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name">
-            </div>
-            <div class="email">
-                <label for="email">E-mail Address:</label>
-                <input type="email" id="email">
-            </div>
-            <div class="gender">
-                <p>Gender:</p>
-                <input type="radio" id="male" value="M">
-                <label for="male">Male</label>
-                <input type="radio" id="female" value="F">
-                <label for="female">Female</label>
-            </div>
-            <div class="fav-class">
-                <label for="fav-class">Your Favorite Class:</label>
-                <select id="fav-class" form="survey-form">
-                    <option value="cs101">CS 101</option>
-                    <option value="cs140">CS 140</option>
-                    <option value="cs202">CS 202</option>
-                    <option value="cs205">CS 205</option>
-                    <option value="cs206">CS 206</option>
-                    <option value="cs210">CS 210</option>
-                    <option value="cs250">CS 250</option>
-                    <option value="cs300">CS 300</option>
-                </select>
-            </div>
-            <div class="skill">
-                <p>Skills:</p>
-                <div>
-                    <input type="checkbox" id="ps" value="problem-solving">
-                    <label for="ps">Problem Solving</label>
+            <fieldset> 
+                <legend><h2>Personal Info:</h2></legend>
+                <div class="name">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name">
                 </div>
-                <div>
-                    <input type="checkbox" id="es" value="emotion">
-                    <label for="es">Emotional Support</label>
+                <div class="email">
+                    <label for="email">E-mail Address:</label>
+                    <input type="email" id="email">
                 </div>
-                <div>
-                    <input type="checkbox" id="tm" value="time">
-                    <label for="tm">Time Management</label>
+                <div class="gender">
+                    <p>Gender:</p>
+                    <input type="radio" id="male" value="M">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" value="F">
+                    <label for="female">Female</label>
                 </div>
-                <div>
-                    <input type="checkbox" id="ct" value="critic-think">
-                    <label for="ct">Critical Thinking</label>
+            </fieldset>
+            <fieldset> 
+                <legend><h2>Academics:</h2></legend>
+                <div class="fav-class">
+                    <label for="fav-class">Your Favorite Class:</label>
+                    <select id="fav-class" form="survey-form">
+                        <option value="cs101">CS 101</option>
+                        <option value="cs140">CS 140</option>
+                        <option value="cs202">CS 202</option>
+                        <option value="cs205">CS 205</option>
+                        <option value="cs206">CS 206</option>
+                        <option value="cs210">CS 210</option>
+                        <option value="cs250">CS 250</option>
+                        <option value="cs300">CS 300</option>
+                    </select>
                 </div>
-                <div>
-                    <input type="checkbox" id="tw" value="teamwork">
-                    <label for="tw">Team Work</label>
+                <div class="skill">
+                    <p>Skills:</p>
+                    <div>
+                        <input type="checkbox" id="ps" value="problem-solving">
+                        <label for="ps">Problem Solving</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="es" value="emotion">
+                        <label for="es">Emotional Support</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tm" value="time">
+                        <label for="tm">Time Management</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ct" value="critic-think">
+                        <label for="ct">Critical Thinking</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tw" value="teamwork">
+                        <label for="tw">Team Work</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ind" value="indepence">
+                        <label for="ind">Independent</label>
+                    </div>
                 </div>
-                <div>
-                    <input type="checkbox" id="ind" value="indepence">
-                    <label for="ind">Independent</label>
+            </fieldset>
+            <fieldset> 
+                <legend><h2>Additional Questions:</h2></legend>
+                <div class="message">
+                    <label for="name">A message for tuture students:</label>
+                    <textarea id="message" rows="3" cols="60" placeholder="Your message ..."></textarea>
                 </div>
-            </div>
-            <div class="message">
-                <label for="name">A message for tuture students:</label>
-                <textarea id="message" rows="3" cols="60" placeholder="Your message ..."></textarea>
-            </div>
+                <div class="rating">
+                    <label for="rate">Rate CS 140:</label>
+                    <input type="range" id="rate" name="rate" min="0" max="5" value="1" step="1">
+                </div>
+            </fieldset>
+            
             <button type="submit">Submit</button>
         </form>
     </main>
